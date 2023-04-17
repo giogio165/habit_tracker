@@ -54,25 +54,13 @@
   flex-direction: column;
   align-items: center;
 }
-.clickactive {
-  width: 50px;
-  height: 50px;
-  background-color: red;
-}
 
 .itemList {
-  width: 100px;
+  width: 150px;
   height: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-}
-
-.clicknotactive {
-  width: 50px;
-  height: 50px;
-  background-color: white;
-  border: 1px solid black;
 }
 
 /* DayBox */
@@ -82,8 +70,40 @@
   margin: 10px;
 }
 .box {
+  display: flex;
   width: 50px;
   height: 50px;
-  background-color: red;
-  border: 1px solid white;
+  background-color: white;
+  border: 1px solid #e3e8ff;
+  align-items: center;
+  justify-content: center;
+}
+
+.clicked {
+  background-color: #e3e8ff;
+  border: 1px solid #e3e8ff;
+}
+/* writeHabit */
+.WriteHabit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title_input {
+  border-left-width: 0;
+  border-right-width: 0;
+  border-top-width: 0;
+  border-bottom-width: 0.6px;
+}
+.title_box {
+  margin: 10px;
+}
+
+textarea {
+  margin-left: 10px;
+  width: 500px;
+  height: 200px;
+  resize: none;
 }

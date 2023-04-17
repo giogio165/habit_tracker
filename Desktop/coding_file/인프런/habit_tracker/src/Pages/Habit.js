@@ -1,7 +1,11 @@
+import Myheader from "../Components/Myheader.js";
+import WriteHabit from "../Components/WriteHabit.js";
+
 const Habit = () => {
   return (
-    <div>
-      <h1>habit 입니다</h1>
+    <div className="Habit">
+      <Myheader headtext={"Habit"} rightbtn={"edit"} />
+      <WriteHabit />
     </div>
   );
 };

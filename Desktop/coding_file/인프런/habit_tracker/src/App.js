@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Home from "./Pages/Home";
 import Habit from "./Pages/Habit";
-import Table from "./Pages/Table";
+import New from "./Pages/New";
 
 const App = () => {
   return (
@@ -10,8 +10,8 @@ const App = () => {
       <div className="App">
         <Routes>
           <Route path="/" element={<Home />}></Route>
-          <Route path="/Table" element={<Table />}></Route>
           <Route path="/Habit" element={<Habit />}></Route>
+          <Route path="/New" element={<New />}></Route>
         </Routes>
       </div>
     </BrowserRouter>

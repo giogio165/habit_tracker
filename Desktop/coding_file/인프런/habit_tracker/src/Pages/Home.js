@@ -3,7 +3,7 @@ import Calendar from "../Components/Calendar";
 import CheckBoxList from "../Components/CheckBoxList";
 
 const Home = () => {
-  const itemList = ["joging for 30min ", "eat 3 meals"];
+  const itemList = ["joging for 30min ", "eat 3 meals", "study for 1hr"];
   return (
     <div>
       <Myheader headtext={"Habit"} rightbtn={"add"} />

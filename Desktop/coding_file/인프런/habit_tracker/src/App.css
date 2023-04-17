@@ -1,0 +1,89 @@
+/* App */
+.App {
+  padding: 0 20px;
+}
+/* Myheader */
+
+.Myheader {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.headtext {
+  font-weight: 600;
+  font-size: 20px;
+}
+.rightbtn {
+  width: 50px;
+  height: 30px;
+  background-color: #e3e8ff;
+  text-align: center;
+  line-height: 28px;
+  border-radius: 20px;
+}
+/* Calendar */
+.Calendar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.thisweek {
+  margin: 0 20px;
+}
+
+.deWeek {
+  cursor: pointer;
+}
+.inWeek {
+  cursor: pointer;
+}
+
+/* CheckboxList */
+.Checkbox {
+  display: flex;
+  flex-direction: column;
+}
+.Habit {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  align-items: center;
+}
+.CheckBoxList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.clickactive {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+}
+
+.itemList {
+  width: 100px;
+  height: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.clicknotactive {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+/* DayBox */
+.DayBox {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+.box {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  border: 1px solid white;
+}
